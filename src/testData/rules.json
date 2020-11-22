@@ -1,0 +1,28 @@
+{
+    "move": [
+        { "contains" :     "SpiderMan",
+          "destination" : "FR/Marvel/Spiderman"
+        } ,
+        {
+            "contains" :    "Héritage && Iron-Man",
+            "destination" : "FR/Héritage/IronMan"
+        }
+    ],
+
+    "replace-extension": [
+        { "replace": "zip",
+           "with": "cbz" },
+        { "replace": "rar",
+           "with": "cbr" }
+    ],
+    
+    "remove": [
+       {"delete" : "\\[Comics\\.fr\\]" },
+       {"delete" : "\\[Comics-fr\\]" },
+       {"delete" : "\\[Comics fr\\]" },
+       {"delete" : "\\[Comics FR\\]" },
+       {"delete" : "\\[Comics\\.FR\\]" },
+       {"delete" : "\\[Comics-FR\\]" }
+    ]
+}
+
