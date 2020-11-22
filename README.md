@@ -1,11 +1,11 @@
-#Comics Organiser
+# Comics Organiser
 Comics organiser is a command line tool. It automatically organises digital comics in a given directory.  
 They are renamed and moved according to a set of rules.
 
-##Requirements
+## Requirements
 Python 2.7+ (could be changed to any higher python release, like Python 3.3)
 
-##Usage:
+## Usage:
 
 `organise [-real] [-quiet] [-source path/to/comics] [-rules path/to/rulefile] [-log path/to/logfile] path/to/destination/directory`
 
@@ -22,7 +22,7 @@ If this file is not found the execution stops.
 
 * `-quiet`    disables the output of the logs on the command line. By default all operations are displayed on screen.  
 
-##Examples:
+## Examples:
 
 `organise /usr/me/documents/comics`
 
@@ -51,7 +51,7 @@ They are two types of rules:
 * file moving rules
 * file renaming rules
 
-###Moving rules
+### Moving rules
 The rules are processed in the order their appear in the rule file. As soon as a rule may be applied to the current file, the remaining rules are ignored.
 
 Example: 
@@ -66,7 +66,7 @@ Example:
 ]
 ```
 
-###Renaming rules
+### Renaming rules
 
 All rules are applied.
 
